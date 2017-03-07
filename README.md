@@ -6,7 +6,7 @@ Hermes is the codename for the integrated Message Manager fuzzer in Firefox.
 **Bugzilla:** https://bugzilla.mozilla.org/show_bug.cgi?id=777600
 
 
-<h3>Setup<h3>
+<h3>Setup</h3>
 
 In order to launch Hermes is it required to have a build of Firefox at hand, which was compiled with the "--enable-fuzzing" compile time option.
 
@@ -17,7 +17,7 @@ download such builds for your platform from our build server.
 To find out which test-suites are supported run "./mach --help" and look for the "Testing:" section.
 
 
-<h3>Environment<h3>
+<h3>Environment</h3>
 
 Controlling Hermes is entirely done via environment variables.
 
@@ -37,7 +37,7 @@ MOZ_IPC_MESSAGE_LOG=1
 ```
 
 
-<h3>Examples<h3>
+<h3>Examples</h3>
 
 To run Hermes against the Mochitest test-suite:
 
