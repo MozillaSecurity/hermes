@@ -8,7 +8,7 @@ Hermes is the codename for the integrated Message Manager fuzzer in Firefox.
 
 <h3>Setup</h3>
 
-In order to launch Hermes is it required to have a build of Firefox at hand, which was compiled with the "--enable-fuzzing" compile time option.
+In order to launch Hermes it is required to have a build of Firefox at hand, which was compiled with the "--enable-fuzzing" compile time option.
 
 Look at https://github.com/MozillaSecurity/mozilla-build-configs/ for ready-made build configurations or
 download such builds for your platform from our build server.
