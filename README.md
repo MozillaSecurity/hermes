@@ -1,4 +1,4 @@
-![](http://people.mozilla.com/~cdiehl/img/hermes.png)
+![](http://people.mozilla.com/~cdiehl/img/hermes_logo.png)
 
 
 Hermes is the codename for the integrated Message Manager fuzzer in Firefox.
