@@ -28,7 +28,7 @@ MESSAGEMANAGER_FUZZER_ENABLE | 1 | required
 MESSAGEMANAGER_FUZZER_ENABLE_LOGGING | 1 | optional
 MESSAGEMANAGER_FUZZER_MUTATION_PROBABILITY | 2 | optional
 MESSAGEMANAGER_FUZZER_STRINGSFILE | none | optional
-
+MESSAGEMANAGER_FUZZER_BLACKLIST | none | optional
 
 Additional environment variables exposed by Firefox which are helpful for debugging purposes and crash analyzes.
 
