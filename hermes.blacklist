@@ -1,1 +1,8 @@
 FullZoom
+specialpowers-http-notify-request
+SpecialPowers.RemoveFiles
+SessionStore:update
+chromeEvent
+SPPingService
+SPProcessCrashService
+Addons:ChangeNotification
