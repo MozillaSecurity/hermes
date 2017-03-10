@@ -49,46 +49,33 @@ MESSAGEMANAGER_FUZZER_ENABLE=1 MESSAGEMANAGER_FUZZER_ENABLE_LOGGING=1 MESSAGEMAN
 
 ```
 [...]
-[MessageManagerFuzzer] Message: RemoteLogins:insecureLoginFormPresent in process: 0
+[MessageManagerFuzzer] Message: Content:LocationChange in process: 2
 [MessageManagerFuzzer]     <Enumerating found object>
-[MessageManagerFuzzer]     - Property: hasInsecureLoginForms
-[MessageManagerFuzzer] Message: SessionStore:update in process: 0
-[MessageManagerFuzzer]     <Enumerating found object>
-[MessageManagerFuzzer]     - Property: data
+[MessageManagerFuzzer]     - Property: webProgress
 [MessageManagerFuzzer]         <Enumerating found object>
-[MessageManagerFuzzer]         - Property: historychange
-[MessageManagerFuzzer]             <Enumerating found object>
-[MessageManagerFuzzer]             - Property: entries
-[MessageManagerFuzzer]                 <Enumerating found object>
-[MessageManagerFuzzer]                 - Property: 0
-[MessageManagerFuzzer]                 - Property: 1
-[MessageManagerFuzzer]                 - Property: 2
-[MessageManagerFuzzer]                     <Enumerating found object>
-[MessageManagerFuzzer]                     - Property: url
-[MessageManagerFuzzer]                     - Property: title
-[MessageManagerFuzzer]                     ! Mutated value of type |string|: [...]
-[MessageManagerFuzzer]                     - Property: subframe
-[MessageManagerFuzzer]                     - Property: charset
-[MessageManagerFuzzer]                     ! Mutated value of type |string|: [...]
-[MessageManagerFuzzer]                     - Property: ID
-[MessageManagerFuzzer]                     ! Mutated value of type |int32|: '2' to '2147483647'
-[MessageManagerFuzzer]                     - Property: docshellUUID
-[MessageManagerFuzzer]                     ! Mutated value of type |string|: [...]
-[MessageManagerFuzzer]                     - Property: triggeringPrincipal_base64
-[MessageManagerFuzzer]                     - Property: docIdentifier
-[MessageManagerFuzzer]                     ! Mutated value of type |int32|: '2' to '65535'
-[MessageManagerFuzzer]                     - Property: persist
-[MessageManagerFuzzer]                     ! Mutated value of type |boolean|: '1' to '0'
-[MessageManagerFuzzer]             - Property: userContextId
-[MessageManagerFuzzer]             - Property: index
-[MessageManagerFuzzer]             ! Mutated value of type |int32|: '3' to '-262144'
-[MessageManagerFuzzer]             - Property: fromIdx
-[MessageManagerFuzzer]         - Property: pageStyle
-[MessageManagerFuzzer]     - Property: telemetry
-[MessageManagerFuzzer]     - Property: flushID
-[MessageManagerFuzzer]     - Property: isFinal
-[MessageManagerFuzzer]     ! Mutated value of type |boolean|: '0' to '0'
-[MessageManagerFuzzer]     - Property: epoch
-[MessageManagerFuzzer]     ! Mutated value of type |int32|: '0' to '-2147483648'
+[MessageManagerFuzzer]         - Property: isTopLevel
+[MessageManagerFuzzer]         - Property: isLoadingDocument
+[MessageManagerFuzzer]         ! Mutated value of type |boolean|: '1' to '1'
+[MessageManagerFuzzer]         - Property: loadType
+[MessageManagerFuzzer]         ! Mutated value of type |int32|: '1' to '-16'
+[MessageManagerFuzzer]         - Property: DOMWindowID
+[MessageManagerFuzzer]     - Property: requestURI
+[MessageManagerFuzzer]     - Property: originalRequestURI
+[MessageManagerFuzzer]     - Property: documentContentType
+[MessageManagerFuzzer]     - Property: innerWindowID
+[MessageManagerFuzzer]     - Property: location
+[MessageManagerFuzzer]     - Property: flags
+[MessageManagerFuzzer]     ! Mutated value of type |int32|: '0' to '1048575'
+[MessageManagerFuzzer]     - Property: canGoBack
+[MessageManagerFuzzer]     - Property: canGoForward
+[MessageManagerFuzzer]     - Property: documentURI
+[MessageManagerFuzzer]     - Property: title
+[MessageManagerFuzzer]     - Property: charset
+[MessageManagerFuzzer]     - Property: mayEnableCharacterEncodingMenu
+[MessageManagerFuzzer]     - Property: principal
+[MessageManagerFuzzer]     - Property: synthetic
+[MessageManagerFuzzer]     ! Mutated value of type |boolean|: '0' to '1'
+[MessageManagerFuzzer]     - Property: inLoadURI
+[MessageManagerFuzzer] Mutated 'Content:LocationChange' Message: ({webProgress:{isTopLevel:true, isLoadingDocument:true, loadType:-16, DOMWindowID:4294967297}, requestURI:"https://www.google.de/?gfe_rd=cr&ei=D1_CWJ3hG5Gg8weFqIHYAg", originalRequestURI:"https://google.com/", documentContentType:"text/html", innerWindowID:4294967300, location:(void 0), flags:1048575, canGoBack:true, canGoForward:false, documentURI:"https://www.google.de/?gfe_rd=cr&ei=D1_CWJ3hG5Gg8weFqIHYAg", title:"", charset:"UTF-8", mayEnableCharacterEncodingMenu:true, principal:({}), synthetic:true, inLoadURI:false})
 [...]
 ```
